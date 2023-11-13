@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PGC-GYM Landing Page</title>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="menu">
+    <div class="container flex">
+      <div class="mobile-btn">
+        <ion-icon name="grid"></ion-icon>
+      </div>
+      <div class="logo">
+        <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/logo.png" alt="" />
+      </div>
+      <ul class="nav">
+        <li class="nav-item"><a href="#">Home</a></li>
+        <li class="nav-item"><a href="#why-us">Features</a></li>
+        <li class="nav-item"><a href="#explore">Explore</a></li>
+        <li class="nav-item"><a href="#discount">Register</a></li>
+      </ul>
+      <a href="#" class="btn">Register</a>
+    </div>
+  </div>
+  
+  <div class="registration-form">
+    <h2>Registration Form</h2>
+    <form>
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" required>
+
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <button type="button" id="submitBtn" class="btn">Submit</button>
+    </form>
+  </div>
+
+  <header class="header">
+    <div class="container flex">
+      <div class="text">
+        <h1 class="mb">
+          Complete Daily <br />
+          <span>Workout</span> At Home
+        </h1>
+        <p class="mb">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
+          sunt sed tempora neque molestiae corrupti nobis harum ullam eos nam!
+        </p>
+        <a href="#" class="btn mt">Get Started Now</a>
+      </div>
+      <div class="visual">
+        <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/banner-img.png" alt="" />
+      </div>
+    </div>
+  </header>
+
+  <div class="section" id="why-us">
+    <div class="container flex">
+      <div class="text">
+        <h2 class="primary mb">Why Choose Us?</h2>
+        <h3 class="secondary mb">Consulatation with Expert.</h3>
+        <p class="tertiary">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias quos
+          maxime tempore?
+        </p>
+        <h3 class="secondary mb">Consulatation with Expert.</h3>
+        <p class="tertiary">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias quos
+          maxime tempore?
+        </p>
+      </div>
+      <div class="visual">
+        <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/why-us.png" alt="" />
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="explore">
+    <div class="container flex">
+      <div class="visual">
+        <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/explore.jpg" alt="" />
+      </div>
+      <div class="text">
+        <h2 class="primary mb">
+          Explore Our Fitness <br />
+          Studio
+        </h2>
+        <p class="tertiary mb">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          esse vitae ratione quos maiores eveniet temporibus illum! Eligendi
+          amet officia unde sint totam ut optio. Molestiae, illo quia?
+        </p>
+        <a href="#" class="btn mt">Get Started Now</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="trainer">
+    <h2 class="primary mb">Our Professional Trainers</h2>
+    <div class="container flex">
+      <div class="trainer">
+        <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/trainer1.jpg" alt="" />
+        <h3 class="secondary mb">Alan Smith</h3>
+        <p class="tertiary mb">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla.
+        </p>
+        <a href="#" class="btn-2">Read More</a>
+      </div>
+      <div class="trainer">
+        <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/trainer2.jpg" alt="" />
+        <h3 class="secondary mb">Emily Davis</h3>
+        <p class="tertiary mb">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla.
+        </p>
+        <a href="#" class="btn-2">Read More</a>
+      </div>
+      <div class="trainer">
+        <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/trainer3.jpg" alt="" />
+        <h3 class="secondary mb">John Johnson</h3>
+        <p class="tertiary mb">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla.
+        </p>
+        <a href="#" class="btn-2">Read More</a>
+      </div>
+    </div>
+  </div>
+  <button id="prevBtn" class="btn-2">Previous</button>
+  <button id="nextBtn" class="btn-2">Next</button>
+
+  <div class="section" id="testimonial">
+    <h2 class="primary mb">What Our Clients Say</h2>
+    <div class="container flex">
+      <div class="testimonial client">
+        <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/client1.jpg" alt="" />
+        <h3 class="secondary mb">Alice Johnson</h3>
+        <p class="tertiary mb">
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+          dolore!"
+        </p>
+      </div>
+      <div class="testimonial client">
+        <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/client2.jpg" alt="" />
+        <h3 class="secondary mb">Bob Smith</h3>
+        <p class="tertiary mb">
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+          dolore!"
+        </p>
+      </div>
+      <div class="testimonial client">
+        <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/client3.jpg" alt="" />
+        <h3 class="secondary mb">Eva Davis</h3>
+        <p class="tertiary mb">
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+          dolore!"
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="discount">
+    <div class="container flex">
+      <div class="visual">
+        <img src="https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/discount.png" alt="" />
+      </div>
+      <div class="text">
+        <h2 class="primary mb">Limited Time Offer</h2>
+        <p class="tertiary mb">
+          Sign up today and get a <span class="secondary">50% discount</span> on
+          your first month!
+        </p>
+        <a href="#" class="btn mt">Get Started Now</a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2023 PGC-GYM. All rights reserved.</p>
+  </footer>
+  <script src="slider.js"></script>
+</body>
+
+</html>
+ 
